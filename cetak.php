@@ -27,7 +27,7 @@
         ?>
         <div id="particles-js">
      <div class="back">
-        <a href="regis.php"><b>< </b> Back to Form </a>
+        <a href="index.php"><b>< </b> Back to Form </a>
         <?php 
             $fileku = "file.txt";
             $filehandle = fopen($fileku, 'a') or die ("File gagal dibuka");
