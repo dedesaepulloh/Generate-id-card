@@ -1,0 +1,207 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    padding: 0px;
+    color : #333333;
+    background-color: #fff;
+    
+}
+.judul h2{
+    text-align: center;
+    margin: 20px auto;
+    color : #487eb0;
+}
+.judul h2 b{
+    color:#e74c3c;
+}
+
+form{
+    margin: 80px auto;
+    width: 50%;
+    height: 465px;
+    box-shadow: 0  0 3px 3px rgba(55, 133, 235, 0.2);
+	padding: 50px 0px 0px 50px;
+    border-radius: 5px;
+    /* display: inline-block; */
+    
+    
+}
+
+#particles-js{
+    margin: 0;
+    padding: 0;
+    height: 150px;
+   /* background-size: cover;
+   background-color: #e95848; */
+   /* position: absolute; */
+}
+
+.svvg{
+    height: 100px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+form input{
+    width: 175%;
+    height: 35px;
+    padding: 6px 12px;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+
+form textarea{
+    width: 175%;
+    height: 100px;
+    padding: 6px 12px;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+ form select{
+    width: 100%;
+    padding: 6px 12px;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+ }
+
+ form input[type=submit]{
+     background-color:#e74c3c;
+     color: #fff;
+     cursor: pointer;
+     height: 45px;
+     font-size: 20px;
+ }
+
+ /* form input[type=file]{
+     border: 0px;
+ } */
+ 
+
+ .member{
+    width: 50%;
+    height: 400px;
+    box-shadow: 0  0 3px 3px rgba(55, 133, 235, 0.2);
+	padding: 40px 0px 0px 50px;
+    border-radius: 5px;
+    margin: 80px auto;
+ }
+
+ .logo img{
+    margin: 0px;
+    padding: 0px; 
+    width: 215px;
+    float: left;
+ }
+
+ .head h1, h2{
+     text-align: right;
+     margin: 10px 50px;
+ }
+
+ .head h2{
+    color:#e74c3c;
+ }
+
+ .identitas{
+    background-color: #487eb0;
+    width: 385px;
+    max-height: 148px;
+    padding: 20px;
+    border-radius: 8px;
+    margin-right: 20px;
+    float: left;
+ }
+ .identitas h3{
+     margin: 0px;
+     padding: 3px;
+ }
+
+ .berlaku{
+    background-color: #e74c3c;
+    color: #ffffff;
+    float: left;
+    width: 230px;
+    padding: 20px;
+    border-radius: 8px;
+    height: 148px;
+ }
+
+ .berlaku h4{
+     text-align: center;
+     margin: 0px;
+     font-weight: normal;
+     font-size: 10px;
+ }
+ .berlaku h3{
+    text-align: center;
+     font-weight: normal;
+     font-size: 15px;
+     margin-top: 10px;
+ }
+ .identitas table{
+    color: #ffffff;
+    font-size: 18px;
+ }
+
+ .qr img{
+     margin-left: -9px;
+     padding: 0px;
+     width: 90px;
+ }
+
+ .foto{
+    text-align: center;
+    margin-top: 0px;
+    padding: 0px;
+
+   
+}
+
+.berlaku .foto img{
+    border-radius: 27%;
+    border: 2px solid #fff; 
+}
+
+
+ p{
+     float: right;
+     margin-top: -55px;
+     margin-right:5px; 
+     padding: 10px;
+     background-color: #e74c3c;
+     color: #ffffff;
+     border-radius: 5px;
+     width: 100px;
+     text-align: right;
+ }
+
+ .back{
+    margin: 75px;
+}
+
+.back a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #e74c3c;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.back b{
+    color: #fff;
+}
+
+#tb thead{
+    color: #fff;
+    background-color: #e74c3c;
+}
