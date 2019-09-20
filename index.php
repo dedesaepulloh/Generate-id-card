@@ -8,8 +8,17 @@
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="stylesheet" type="text/css" href="js/aos/aos.css">
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="DataTables-1.10.18/css/jquery.dataTables.css"/>
         <script type="text/javascript" src="js/jquery.js"></script>
         <script src="js/bootstrap.js"></script>
+        <script type="text/javascript" src="DataTables-1.10.18/js/jquery.dataTables.js"></script>
+        
+        <script type="text/javascript">
+        $(document).ready(function(){
+            $('#tb').DataTable();
+        });
+</script>
+
 </head>
 <body>
      
@@ -69,7 +78,7 @@
             </table>
         </form>
         
-        <table id="tb" class="table table-striped" border=1px>
+        <table id="tb" class="table table-striped">
             <thead>
                 <tr >
                     <th scope="col">Nama</th>
@@ -90,7 +99,7 @@
                 ?>
             </tbody>
         
-        </table>
+        </table><br>
         <script type="text/javascript" src="js/particles.js"></script>
         <script type="text/javascript" src="js/app.js"></script>
         <script type="text/javascript" src="js/aos/aos.js"></script>
