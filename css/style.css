@@ -93,7 +93,7 @@ form textarea{
     box-shadow: 0  0 3px 3px rgba(55, 133, 235, 0.2);
 	padding: 40px 0px 0px 50px;
     border-radius: 5px;
-    margin: 80px auto;
+    margin: 0px auto;
  }
 
  .logo img{
@@ -110,6 +110,10 @@ form textarea{
 
  .head h2{
     color:#e74c3c;
+ }
+
+ .head h1{
+    color:#487eb0;
  }
 
  .identitas{
@@ -186,7 +190,7 @@ form textarea{
  }
 
  .back{
-    margin: 75px;
+    margin: 50px 100px;
 }
 
 .back a{
